@@ -6,12 +6,38 @@
     <title>html table</title>
     <style>
         table,th,td{
-            border: 1px solid black;
+            width:700px;
+            font-size: 150%;
+            border: 5px solid rgb(130, 10, 241);
+            background-color: coral;
         }
+        
     </style>
 </head>
 <body>
-    <h3>Class Formate Table</h3>
+    <h2>The From Element</h2>
+    <from action="/" method="post">
+        <div>
+            <label for="Student Name">Student Name:</label>
+            <input type="Student Name" id="Student Name" name="Student Name" required>
+        </div>
+        <div>
+            <label for="Class">Class:</label>
+            <input type="Class" id="Class" name="Class">
+        </div>
+        <div>
+            <lebel for="Roll">Roll:</lebel>
+            <input type="Roll" id="Roll" name="Roll">
+        </div>
+        <div>
+            <label for="Subject">Subject:</label>
+            <input type="Subject" id="Subject" name="Subject">
+        </div>
+        <br>
+        <input type="Submit" value="Submit">
+
+    </from>
+    <h3>Class Formate Table:</h3>
     <table style="width:100%">
     <tr>
         <th>Name</th>
